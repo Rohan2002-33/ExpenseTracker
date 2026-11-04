@@ -1,17 +1,18 @@
-# expense_tracker
+# Expense Tracker
 
-A new Flutter project.
+A Flutter app to manage daily income and expenses with a local SQLite database.
 
-## Getting Started
+## Features
+- Dashboard with Total Income, Total Expense and Current Balance
+- Add, view, update and delete transactions
+- Form validation (title, amount, category, type)
+- Date picker, category dropdown, income/expense type selector
+- Transaction list built with `ListView.builder`, colour-coded by type
+- Search and filter on the All Transactions screen
+- Delete confirmation with `AlertDialog`
+- Data saved offline with `sqflite` (`expense_tracker.db`, table `transactions`)
 
-This project is a starting point for a Flutter application.
+## Tech stack
+Flutter, Dart, sqflite, provider, intl
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run locally
