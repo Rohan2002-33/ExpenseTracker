@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 import 'core/app_theme.dart';
 import 'core/constants.dart';
 import 'providers/transaction_provider.dart';
-import 'screens/dashboard_screen.dart';
+import 'screens/splash_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +24,7 @@ class ExpenseTrackerApp extends StatelessWidget {
         title: kAppName,
         debugShowCheckedModeBanner: false,
         theme: AppTheme.light,
-        home: const DashboardScreen(),
+        home: const SplashScreen(),
       ),
     );
   }
